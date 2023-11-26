@@ -1,0 +1,95 @@
+header{
+    background-color: gray;
+    padding: 0.5em 1em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+h1{
+    color: white;
+    margin: 0px;
+    flex-grow: 1;
+}
+
+#mybutton{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#divExterna{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 768px) {
+    #divExterna{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #divExterna{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+
+
+body{
+    background-color: gray;
+}
+
+button{
+    display: block;
+    top: 5px;
+    color: white;
+    background-color: black;
+    position: relative;
+    padding: 0.5em;
+    margin-left: 75px
+}
+
+#all{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#feminino{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#masculino{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}

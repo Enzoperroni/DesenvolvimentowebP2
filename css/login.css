@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: gray; /* Cor de fundo branca */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h2 {
+    color: #000; /* Cor do texto preta */
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+    color: #000;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: black
+  }
+
+  /* Adiciona uma borda vermelha ao campo de senha quando a senha é incorreta */
+  input:invalid {
+    border: 1px solid red;
+  }
+
+  /* Adiciona estilo à mensagem de erro */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ #containerlogin{
+    display: gird;
+    grid-template-columns: auto;
+ }
+
+@media screen and (min-width: 768px) {
+  #containerlogin{
+      grid-template-rows: auto;
+  }
+}
+
